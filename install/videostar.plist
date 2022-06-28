@@ -11,7 +11,7 @@
 <key>kind</key>
 <string>software-package</string>
 <key>url</key>
-<string>https://xipa.me/server1/ipa/Ehmedjamil.jnsSQqdS563VPYxM6RAN.ipa</string>
+<string>لینکی فایلی بەرنامە</string>
 </dict>
 <dict>
 <key>kind</key>
@@ -19,7 +19,7 @@
 <key>needs-shine</key>
 <true/>
 <key>url</key>
-<string>https://jbtools.co/final/aseets/img/apps/videostar.png</string>
+<string>لوگوی خوت یان بەرنامە </string>
 </dict>
 </array>
 <key>metadata</key>
@@ -31,8 +31,7 @@
 <key>subtitle</key>
 <string>v1</string>
 <key>title</key>
-<string> Video star 📥
-name </string>
+<string>ناوی بەرنامە </string>
 </dict>
 </dict>
 </array>
