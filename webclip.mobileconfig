@@ -20,7 +20,7 @@
             <key>PayloadIdentifier</key>
             <string>com.sardam.kurdstor</string>
             <key>PayloadOrganization</key>
-            <string>kurd stor</string>
+            <string>kurdish stor</string>
             <key>PayloadType</key>
             <string>com.apple.webClip.managed</string>
             <key>PayloadUUID</key>
@@ -34,7 +34,7 @@
         </dict>
     </array>
     <key>PayloadDescription</key>
-    <string>زورسوپاس بو دابەزاندنی کورد ستور</string>
+    <string>زورسوپاس بو دابەزاندنی کوردیش ستور</string>
     <key>PayloadDisplayName</key>
     <string>kurdish-stor</string>
     <key>PayloadIdentifier</key>
