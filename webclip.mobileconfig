@@ -36,7 +36,7 @@
     <key>PayloadDescription</key>
     <string>زورسوپاس بو دابەزاندنی کورد ستور</string>
     <key>PayloadDisplayName</key>
-    <string>sardam story</string>
+    <string>kurdish-stor</string>
     <key>PayloadIdentifier</key>
     <string>com.sardam.kurdstor</string>
     <key>PayloadOrganization</key>
