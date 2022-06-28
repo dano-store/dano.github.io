@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC '-//Apple//DTD PLIST 1.0//EN' 'http://www.apple.com/DTDs/PropertyList-1.0.dtd'>
+<plist version='1.0'>
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>Icon</key>
+            <data>logo xml code 64</data>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Label</key>
+            <string>kurd stor</string>
+            <key>PayloadDescription</key>
+            <string>Configures Web Clip</string>
+            <key>PayloadDisplayName</key>
+            <string>kurd stor</string>
+            <key>PayloadIdentifier</key>
+            <string>com.sardam.kurdstor</string>
+            <key>PayloadOrganization</key>
+            <string>kurd stor</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>B1766940-0927-4F94-BAF4-AFA8DC83B483</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Precomposed</key>
+            <true/>
+            <key>URL</key>
+            <string>http://www.kurd-stor.tk</string>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>زورسوپاس بو دابەزاندنی کورد ستور</string>
+    <key>PayloadDisplayName</key>
+    <string>sardam story</string>
+    <key>PayloadIdentifier</key>
+    <string>com.sardam.kurdstor</string>
+    <key>PayloadOrganization</key>
+    <string>kurd stor</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>AC3450FC-4E16-46F2-A392-9D4D30CED9D5</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
