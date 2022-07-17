@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/videostar_202207/videostar.ipa</string>
+					<string>https://archive.org/download/in-shot-1.54.2-16580971599999/InShot_1.54.2_16580971599999.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://kurdish-stor.tk/videostar.png</string>
+					<string>https://kurdish-stor.tk/Shot.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://kurdish-stor.tk/videostar.png</string>
+					<string>https://kurdish-stor.tk/Shot.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
