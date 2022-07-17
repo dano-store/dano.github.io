@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://kurdish-stor.tk/pubg.jpg</string>
+					<string>https://kasar.store/Kasaricon.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://kurdish-stor.tk/pubg.jpg</string>
+					<string>https://kasar.store/Kasaricon.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -35,7 +35,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>PUBG MOBILE Hack</string>
+				<string>PUBG MOBILE</string>
 			</dict>
 		</dict>
 	</array>
