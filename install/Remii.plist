@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://is.gd/kasarstore_freehacka</string>
+					<string>https://archive.org/download/remini-2.6.4-1658182110/Remini_2.6.4_1658182110.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>app.store.kasar.Clash-of-Clans</string>
+				<string>kurdish-stor.tk</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>PUBG MOBILE</string>
+				<string>Remini Pro</string>
 			</dict>
 		</dict>
 	</array>
