@@ -11,31 +11,31 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://is.gd/kasarstore_freehacka</string>
+					<string>https://archive.org/download/snapchat-8888/Snapchat_8888.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://kasar.store/Kasaricon.png</string>
+					<string>https://kurdish-stor.tk/Snapp.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://kasar.store/Kasaricon.png</string>
+					<string>https://kurdish-stor.tk/Snapp.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>app.store.kasar.Clash-of-Clans</string>
+				<string>kurdish-stor.tk</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>PUBG MOBILE</string>
+				<string>SnapChat2</string>
 			</dict>
 		</dict>
 	</array>
