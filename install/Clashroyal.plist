@@ -17,25 +17,25 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://kasar.store/Kasaricon.png</string>
+					<string>https://kurdish-stor.tk/Royal.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://kasar.store/Kasaricon.png</string>
+					<string>https://kurdish-stor.tk/Royal.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>app.store.kasar.Clash-of-Clans</string>
+				<string>kurdish-stor</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>PUBG MOBILE</string>
+				<string>Clash royal</string>
 			</dict>
 		</dict>
 	</array>
