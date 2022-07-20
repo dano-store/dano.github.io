@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>app.store.kasar.Clash-of-Clans</string>
+				<string>kurdish-stor</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>PUBG MOBILE</string>
+				<string>BoZombies</string>
 			</dict>
 		</dict>
 	</array>
