@@ -17,25 +17,25 @@
                     <key>kind</key>
                     <string>display-image</string>
                     <key>url</key>
-                    <string>https://kurdish-stor.tk/8ball.jpg</string>
+                    <string>https://kurdish-stor.tk/Car2.png</string>
                 </dict>
                 <dict>
                     <key>kind</key>
                     <string>full-size-image</string>
                     <key>url</key>
-                    <string>https://kurdish-stor.tk/8ball.jpg</string>
+                    <string>https://kurdish-stor.tk/Car2.png</string>
                 </dict>
             </array>
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>com.kurdish.stor.8BallPool</string>
+                <string>com.kurdish.stor.carX2</string>
                 <key>bundle-version</key>
                 <string>1.0</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
-                <string>8 Ball Pool Hack</string>
+                <string>CarX2 drift Hack</string>
             </dict>
         </dict>
     </array>
