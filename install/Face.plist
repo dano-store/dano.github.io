@@ -12,7 +12,7 @@
 <key>kind</key>
 <string>software-package</string>
 <key>url</key>
-<string>https://archive.org/download/pythonista-3_202206/Pythonista3.ipa</string>
+<string>https://archive.org/download/facetune-2.8.6-1658628229/Facetune_2.8.6_1658628229.ipa</string>
 </dict>
 <dict>
 <key>kind</key>
@@ -20,7 +20,7 @@
 <key>needs-shine</key>
 <true/>
 <key>url</key>
-<string>https://archive.org/download/pyth_20220623/Pyth.png</string>
+<string>https://archive.org/download/face_20220724/Face.png</string>
 </dict>
 </array>
 <key>metadata</key>
@@ -32,9 +32,7 @@
 <key>subtitle</key>
 <string>v1</string>
 <key>title</key>
-<string> Pythonista3 📥
-channel @ikurdish_store 🌐
-kurdish-stor.tk</string>
+<string>Facetune Hack</string>
 </dict>
 </dict>
 </array>
