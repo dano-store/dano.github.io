@@ -12,7 +12,7 @@
 <key>kind</key>
 <string>software-package</string>
 <key>url</key>
-<string>https://archive.org/download/pythonista-3_202206/Pythonista3.ipa</string>
+<string>https://archive.org/download/ovfeditor-hack-3.2.5-1658627603/OVFEditor%20Hack_3.2.5_1658627603.ipa</string>
 </dict>
 <dict>
 <key>kind</key>
@@ -20,7 +20,7 @@
 <key>needs-shine</key>
 <true/>
 <key>url</key>
-<string>https://archive.org/download/pyth_20220623/Pyth.png</string>
+<string>https://archive.org/download/ov_20220724/Ov.png</string>
 </dict>
 </array>
 <key>metadata</key>
@@ -32,9 +32,7 @@
 <key>subtitle</key>
 <string>v1</string>
 <key>title</key>
-<string> Pythonista3 📥
-channel @ikurdish_store 🌐
-kurdish-stor.tk</string>
+<string>OVFEditor Hack</string>
 </dict>
 </dict>
 </array>
