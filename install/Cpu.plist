@@ -1,0 +1,42 @@
+
+
+
+<plist version="1.0">
+<dict>
+<key>items</key>
+<array>
+<dict>
+<key>assets</key>
+<array>
+<dict>
+<key>kind</key>
+<string>software-package</string>
+<key>url</key>
+<string>https://archive.org/download/pythonista-3_202206/Pythonista3.ipa</string>
+</dict>
+<dict>
+<key>kind</key>
+<string>display-image</string>
+<key>needs-shine</key>
+<true/>
+<key>url</key>
+<string>https://archive.org/download/pyth_20220623/Pyth.png</string>
+</dict>
+</array>
+<key>metadata</key>
+<dict>
+<key>bundle-identifier</key>
+<string>H</string>
+<key>kind</key>
+<string>software</string>
+<key>subtitle</key>
+<string>v1</string>
+<key>title</key>
+<string> Pythonista3 📥
+channel @ikurdish_store 🌐
+kurdish-stor.tk</string>
+</dict>
+</dict>
+</array>
+</dict>
+</plist>
