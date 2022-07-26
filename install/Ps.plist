@@ -11,7 +11,7 @@
 <key>kind</key>
 <string>software-package</string>
 <key>url</key>
-<string>https://cdn.i3rby.com/out/videostar++Signed.ipa</string>
+<string>https://archive.org/download/hack-ps-express-22.15.0-1658843727/Hack%20PS%20Express_22.15.0_1658843727.ipa</string>
 </dict>
 <dict>
 <key>kind</key>
@@ -19,7 +19,7 @@
 <key>needs-shine</key>
 <true/>
 <key>url</key>
-<string>https://jbtools.co/final/aseets/img/apps/videostar.png</string>
+<string>https://archive.org/download/ps_20220726/Ps.png</string>
 </dict>
 </array>
 <key>metadata</key>
@@ -31,9 +31,7 @@
 <key>subtitle</key>
 <string>v1</string>
 <key>title</key>
-<string> Video star 📥
-Jbtools.co 🌐
-Telegram:@DanyarExpert</string>
+<string>Photoshop Express</string>
 </dict>
 </dict>
 </array>
