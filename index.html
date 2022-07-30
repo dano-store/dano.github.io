@@ -1,0 +1,3150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<link rel="stylesheet" href="aseets/css/style.css">
+<link rel="stylesheet" href="aseets/css/halfmoon.css">
+<script src="aseets/css/js/half.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+<script src="path/to/halfmoon.js"></script>
+<script type="text/javascript">
+  // Dark mode toggle demo
+ 
+</script>
+
+</head>
+<body>
+
+
+  <style>
+    body {
+        margin: 0 0 55px 0;
+    }
+    
+    /* Style the tab */
+    nav {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 55px;
+        
+       
+        background-color: black;
+        display: flex;
+        overflow-x: auto;
+    }
+    
+    /* Style the buttons inside the tab */
+     nav a {
+      
+    
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding-left: 10px;
+      transition: 0.3s;
+      font-size: 17px;
+    
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        min-width: 50px;
+        overflow: hidden;
+        white-space: nowrap;
+        font-family: sans-serif;
+        font-size: 15px;
+        color: #8c8c8c;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+        transition: background-color 0.1s ease-in-out;
+    }
+    nav a:hover{
+    color:#0a84ff;
+    }
+
+    .content{
+font-family: kurds !important; 
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding-left:10px;
+    
+    }
+    
+    
+    a:hover img.i1{
+      content: url('https://archive.org/download/iii_20220702/Iii.png');
+   }
+   a:hover img.i2{
+    content: url('https://archive.org/download/iii_20220702/Iii.png');
+   }
+   a:hover img.i3{
+    content: url('https://archive.org/download/ann_20220702/Ann.png');
+   }
+   a:hover img.i5{
+    content: url('aseets/img/abo.png');
+   }
+
+.icob{
+  font-size: 24px; 
+  color: #8c8c8c;
+
+}
+.icob:hover {
+ color: #1890ff;
+}
+
+
+   a {
+    text-decoration: none !important;
+}
+    </style>
+   
+    
+    
+    <nav class="navbar"> 
+   
+  
+        <a class="tablinks m-auto" id="defaultOpen" onclick="openCity(event, 'apps')"><img class="i1 " src="https://archive.org/download/iii_20220702/Iii.png" style="width:24px;"><span class="nav__text">apps</span></a>    
+    
+        <a class="tablinks" onclick="openCity(event, 'game')"><img class="i3" src="https://archive.org/download/ann_20220702/Ann.png" style="width:26px; "><span class="nav__text">Android</span></a>
+        
+        <a class="tablinks icob" onclick="openCity(event, 'info')"><i class="fas fa-info " ></i>
+
+          <span class="nav__text">About</span></a>    
+    
+    </nav>
+
+
+
+
+<!-- First comes the modal -->
+<div class="modal" id="modal-1" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <a href="#" class="close" role="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </a>
+      <h5 class="modal-title text9">Free Apple id premium Apps</h5>
+      <img src="aseets/img/apps/appleid.jpg" height="170px" class="img2">
+      <p class="text12"> Email : Danyarapps@Gmail.com </p>
+      <p class="text12"> Pass : Danyar@12345 </p>
+      <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+        <a href="#" class="btn btn-primary text10" role="button">Ok Thankyou</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<style>
+
+ 
+
+.ring
+{
+  position:absolute;
+
+  top:59%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:115px;
+  height:115px;
+  background:transparent;
+ 
+  border-radius:50%;
+  text-align:center;
+  line-height:150px;
+  font-family:sans-serif;
+  font-size:20px;
+  
+  color:#fff000;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px #fff000;
+  box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+.ring:before
+{
+  content:'';
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+ 
+  border-top:3px solid #fff000;
+  border-right:3px solid #fff000;
+  border-radius:50%;
+  animation:animateC 2s linear infinite;
+}
+
+@keyframes animateC
+{
+  0%
+  {
+    transform:rotate(0deg);
+  }
+  100%
+  {
+    transform:rotate(360deg);
+  }
+}
+@keyframes animate
+{
+  0%
+  {
+    transform:rotate(45deg);
+  }
+  100%
+  {
+    transform:rotate(405deg);
+  }
+}
+
+
+
+
+
+.img{
+  width: 111px;
+  border-radius: 50%;
+  padding-top: 2px;
+  
+
+}
+  
+button:hover img.i1{
+    content: url('aseets/img/today2.png');
+   }
+   button:hover img.i2{
+    content: url('aseets/img/apps2.png');
+   }
+   button:hover img.i3{
+    content: url('aseets/img/games2.png');
+   }
+   button:hover img.i4{
+    content: url('aseets/img/update2.png');
+   }
+   button:hover img.i5{
+    content: url('aseets/img/abo.png');
+   }
+
+   @font-face {
+  font-family: kurdf;
+  src: url(aseets/fonts/4.ttf);
+
+}
+@font-face {
+  font-family: kurds;
+  src: url(aseets/fonts/Poppins-Medium.ttf);
+
+}
+@font-face {
+  font-family: kurda;
+  src: url(aseets/fonts/Lato-Bold.ttf);
+
+}
+
+@font-face {
+  font-family: kurdg;
+  src: url(aseets/fonts/Lato-Regular.ttf);
+
+}
+
+.text12{
+  font-family: kurds;
+  text-align: center;
+  font-size: 12px;
+}
+
+.text23{
+  font-family: kurdf;
+  text-align: center;
+  font-size: 12px;
+}
+
+.text25{
+
+  font-family: kurds;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 13px;
+  border-top: 1px solid #007aff !important;
+ 
+
+}
+
+.text27{
+
+font-family: kurdf;
+font-size: 14px;
+text-align: center;
+}
+
+.text29{
+
+font-family: kurdf;
+font-size: 17px;
+text-align: center;
+font-weight: bold;
+}
+
+.text7{
+    font-family: kurds;
+    font-size: 20px;
+    text-align: center;
+}
+.nav__text{
+
+  font-size: 11px;
+  font-family: kurds;
+  color: #8c8c8c;
+
+}
+.text11{
+  font-family: kurds;
+
+
+}
+  
+.text13{
+
+font-family: kurds;
+text-align: center;
+font-size: 17px;
+padding-top: 110px;
+}
+
+.text14{
+
+font-family: kurds;
+text-align: center;
+font-size: 11px;
+
+}
+
+.text15{
+
+font-size: 10px;
+font-family: kurds;
+}
+
+.text16{
+
+font-size: 25px;
+font-family: kurds;
+text-align: center;
+}
+.text22{
+font-family: kurds;
+}
+.text20{
+
+font-size: 12px;
+
+text-align: center;
+}
+
+.text17{
+
+font-size: 13px;
+font-family: kurds;
+text-align: center;
+}
+
+
+.text6{
+  font-family: kurds;
+  font-size: 8px;
+  padding-top: 5px;
+}
+
+.img2{
+  width: 120px;
+  height:180px;
+}
+
+.img3{
+     border-radius: 20%;
+  width: 110px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgtext{
+
+  font-size: 25px;
+  font-family: kurds;
+  text-align: center;
+}
+
+.imgtext1{
+
+  font-size: 15px;
+  font-family: kurds;
+  text-align: center;
+ 
+}
+
+.textb{
+  font-family: kurds;
+  color: white;
+}
+
+.text21{
+text-align: center;
+font-family: kurds;
+}
+
+
+</style>
+
+ <!-- modal -->  <!-- modal --> <!--  modal --> <!--  modal --> <!-- modal -->  
+  <!-- modal -->  <!-- modal --> <!--  modal --> <!--  modal -->  <!-- modal -->
+
+<!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 -->
+<div class="modal " id="modal-3" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <a href="#" class="close" role="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </a>
+      <div class="shadow">
+          <br>
+       
+          <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+            <div class="w-full flex items-center justify-between p-3 alternate-background">
+            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+            <img src="aseets/img/apps/unc0ver.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+            </div>
+            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+            <div class="text5">
+              Unc0ver 
+            </div>
+            <div class="text6">
+            Jailbreak 12.3 - 13.5.1 - windows
+            </div>
+            </div>
+            </div>
+            <a href="#"><button  class="btn btn-secondary btn-sm bg text11 " style="color: white;" type="button">Download Ipa</button> </a>
+            </div>
+            </div>
+          <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+          
+          </div>
+
+      <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+       
+        <a href="#" class="btn btn-primary text10 style" role="button">Ok</a>
+        <br> <br> <br>
+      </div>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 --> <!-- 1 -->
+
+
+          <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+          <div class="modal " id="modal-4" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <a href="#" class="close" role="button" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </a>
+                <div class="shadow">
+                    <br>
+                       
+
+
+         
+                    <p class="text7">games Hack</p>
+                    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                      <div class="w-full flex items-center justify-between p-3 alternate-background">
+                      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                      <img src="aseets/img/games/agario.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                      </div>
+                      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                      <div class="text5">
+                      Agar,io Hack 
+                      </div>
+                      <div class="text6">
+                     
+                      </div>
+                      </div>
+                      </div>
+                       <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/agar.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+                      </div>
+                      </div>
+                    <hr>
+                      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                        <div class="w-full flex items-center justify-between p-3 alternate-background">
+                        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                        <img src="aseets/img/games/8ball.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                        </div>
+                        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                        <div class="text5">
+                         8Ball Pool Hack 
+                        </div>
+                        <div class="text-xs font-medium text-grey leading-tight text6">
+                         
+                  
+                        </div>
+                        </div>
+                        </div>
+                         <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/8BallPoolll.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+                  
+                        </div>
+                        </div>
+                        <hr>
+                          <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                            <div class="w-full flex items-center justify-between p-3 alternate-background">
+                            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                            <img src="aseets/img/games/gta.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                            </div>
+                            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                            <div class="text5">
+                              GTAsan Hack
+                            </div>
+                            <div class="text-xs font-medium text-grey leading-tight text6">
+                             Hacked
+                      
+                            </div>
+                            </div>
+                            </div>
+                             <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/gta.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+                    
+
+
+
+                </div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/pubg.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 PUBG Hack
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                   Hacked
+                  </div>
+                  </div>
+                  </div>
+                   <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/pubg.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+ 
+                            </div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/It.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Getting Over it Free 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Free
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Gettinng.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+      
+
+
+                            </div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Clans.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Clash Of Clans Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/coc.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/park.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Car Parking Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                              کردنەوەی هەموو سیارەکان پارەی بێسنور
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Carpar.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+        
+
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Ville.jpeg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Farm Ville2 Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                              پارەی بێسنور
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Ville.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+  
+
+</div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/mini.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Minecraft 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                              Free
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Miini.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Soul.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Soul Knight Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                              Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Soul.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/Stum.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                  Stumble Guys Hack
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                  Hacked
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Stum.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/amo.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Among Us Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Amon.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+                            </div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Royal.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Clash Royal Hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Clashroyal.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/games/The.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 The Room Two Free
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                 Free
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Theroom.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/games/Human.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                  Human Fall Flat Free
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                  Free
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Human.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Extreme.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Extreme Landings Pro 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Pro
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Extreme.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="https://archive.org/download/shared-image_202207/Shared%20Image.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 Farming Simulator20 Free
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                 Free
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Farming.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/dls_20220723/Dls.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              DLS 2022 Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Dls222.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Car2.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              CarX drift Racing2 Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                                <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Car2.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Free.jpeg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Free Fire Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                                <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Freefire.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/skate_202207/Skate.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                             True Skate Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/TrueSkate.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>                        
+
+
+
+
+                            </div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/trafficracer_202207/Trafficracer.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Traffic Racer Hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Racer.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/hill_20220724/Hill.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                               Hill Climb Racing2 Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Hill.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/limbo.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Limbo 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Free
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Limbooo.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Max.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Drift Max Hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Max.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Ba.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Zooba Hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Bozom.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Three.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                             The Room Three Free
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Free
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/TheroomThree.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Racing.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Carx Highway Racing Hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/CarxH.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/carstreet.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                               CarX Street Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                              Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Carst.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+
+                            </div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Vvv.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Very Little Nightmares
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               خۆی لە ئەپستۆر بە پارەیە
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Vlnn.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/Reker/Reker.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Traffic Rider Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Trafficrider.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/crash_20220624/Crash.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Candy Crush Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                              Hacked
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Candycrush.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Shadow3.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                             Shadow Fight 3 Hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Shadow3.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/heli_20220724/Heli.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Hole,io Hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                                <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Heli.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/stars_20220725/stars.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Brawl Stars Hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                              Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Stars.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Shadow2.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                               Shadow Fight2 Hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                              hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Shadow2.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/limit_202206/Limit.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                               No Limit Hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                              hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                                <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Nolimit.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/toon_20220624/Toon.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                             Toon Blast Hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Toonblast.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/bully.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Bully
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Free
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Bully.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/games/Fifa.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              FIFA Mobile Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Hacked
+                        
+                              </div>
+                              </div>
+                              </div>
+                                <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Fifaa.plist';" class="btn btn-success btn-sm text11" style="color: Black;">Install</a>
+              
+
+        
+                              </div>
+                              </div>
+              
+                            
+
+
+                    <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+                    
+                    </div>
+          
+                <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+                 
+                  <a href="#" class="btn btn-primary text10 style" role="button">Ok</a>
+                  <br> <br> <br>
+                </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+
+          
+          <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 -->
+          <div class="modal " id="modal-4" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <a href="#" class="close" role="button" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </a>
+                <div class="shadow">
+                    <br>
+                 
+                   
+                    <p class="text7">Games hack </p>
+                    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                      <div class="w-full flex items-center justify-between p-3 alternate-background">
+                      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                      <img src="aseets/img/apps/unc0ver.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                      </div>
+                      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                      <div class="text5">
+                        Unc0ver 
+                      </div>
+                      <div class="text6">
+                      Jailbreak 12.3 - 13.5.1 - windows
+                      </div>
+                      </div>
+                      </div>
+                      <button class="btn btn-secondary btn-sm text11 " style="color: white;" type="button">Download Ipa</button>
+                      </div>
+                      </div>
+                    <hr>
+                      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                        <div class="w-full flex items-center justify-between p-3 alternate-background">
+                        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                        <img src="aseets/img/apps/chimera.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                        </div>
+                        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                        <div class="text5">
+                          Chimera 
+                        </div>
+                        <div class="text-xs font-medium text-grey leading-tight text6">
+                          Jailbreak for 12 - 12.4
+                  
+                        </div>
+                        </div>
+                        </div>
+                        <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button>
+                  
+                        </div>
+                        </div>
+                        <hr>
+                          <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                            <div class="w-full flex items-center justify-between p-3 alternate-background">
+                            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                            <img src="aseets/img/apps/fb.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                            </div>
+                            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                            <div class="text5">
+                              Facebook ++ 
+                            </div>
+                            <div class="text-xs font-medium text-grey leading-tight text6">
+                              Tweaked
+                      
+                            </div>
+                            </div>
+                            </div>
+                            <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button>
+                      
+                            </div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/apps/ig.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                                Instagram ++ 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                                Tweaked
+                        
+                              </div>
+                              </div>
+                              </div>
+                              <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button>
+                        
+                              </div>
+                              </div>
+              
+                              <hr>
+                              <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                                <div class="w-full flex items-center justify-between p-3 alternate-background">
+                                <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                                <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                                <img src="aseets/img/apps/tiktok.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                                </div>
+                                <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                                <div class="text5">
+                                  Tiktok ++ 
+                                </div>
+                                <div class="text-xs font-medium text-grey leading-tight text6">
+                                  Download video without water mark
+                          
+                                </div>
+                                </div>
+                                </div>
+                                <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button>
+                          
+                                </div>
+                                </div>
+                                <hr>
+                                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                                  <img src="aseets/img/apps/Kinemaster.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                                  </div>
+                                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                                  <div class="text5">
+                                    Kine master
+                                  </div>
+                                  <div class="text-xs font-medium text-grey leading-tight text6">
+                                    Without Water Mark
+                            
+                                  </div>
+                                  </div>
+                                  </div>
+                                  <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button>
+                            
+                                  </div>
+                                  </div>
+                                  <hr>
+                                  <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                                    <div class="w-full flex items-center justify-between p-3 alternate-background">
+                                    <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                                    <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                                    <img src="aseets/img/apps/videostar.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                                    </div>
+                                    <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                                    <div class="text5">
+                                      Video star
+                                    </div>
+                                    <div class="text-xs font-medium text-grey leading-tight text6">
+                                      Unlock all features
+                              
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button>
+                              
+                                    </div>
+                                    </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/apps/cute.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                                Cute Cut Pro
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                                Pro
+                        
+                              </div>
+                              </div>
+                              </div>
+                              <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button>
+                        
+                              </div>
+                              </div>
+                      
+
+
+                    <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+                    
+                    </div>
+          
+                <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+                 
+                  <a href="#" class="btn btn-primary text10 style" role="button">Ok</a>
+                  <br> <br> <br>
+                </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <!-- 4 --> <!-- 4 --> <!-- 4 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 --> <!-- 3 -->
+
+          <div class="modal " id="modal-5" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <a href="#" class="close" role="button" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </a>
+                <div class="shadow">
+                    <br>
+                 
+                   
+                   
+                    <p class="text7"> Ipa Games</p>
+                    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                      <div class="w-full flex items-center justify-between p-3 alternate-background">
+                      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                      <img src="aseets/img/games/8ball.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                      </div>
+                      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                      <div class="text5">
+                        8 ball pool 
+                      </div>
+                      <div class="text6">
+                        Infinity Guidlines always active
+                
+                      </div>
+                      </div>
+                      </div>
+                      <button class="btn btn-secondary btn-sm bg text11" style="color: white;" type="button">Download Ipa</button>
+                      </div>
+                      </div>
+                    <hr>
+                      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                        <div class="w-full flex items-center justify-between p-3 alternate-background">
+                        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                        <img src="aseets/img/games/agario.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                        </div>
+                        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                        <div class="text5">
+                          Agar.io 
+                        </div>
+                        <div class="text-xs font-medium text-grey leading-tight text6">
+                           hack menu
+                
+                  
+                        </div>
+                        </div>
+                        </div>
+                        <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button>
+                  
+                        </div>
+                        </div>
+                        <hr>
+                          <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                            <div class="w-full flex items-center justify-between p-3 alternate-background">
+                            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                            <img src="aseets/img/games/amo.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                            </div>
+                            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                            <div class="text5">
+                              Among Us
+                
+                            </div>
+                            <div class="text-xs font-medium text-grey leading-tight text6">
+                              Hack skins more...
+                      
+                            </div>
+                            </div>
+                            </div>
+                           <a href="https://storage.ihvn.dev/ipas/Among%20Us%21%20Hack%20No%20Jailbreak%20Cheats%202020.9.9%20Hacked%20IPA%20by%20iOSGods.com.ipa"> <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button></a>
+                      
+                            </div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/apps/pubg.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                                Pubg hack
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                                Pubg mobile hack
+                        
+                              </div>
+                              </div>
+                              </div>
+                              <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download Ipa</button>
+                        
+                              </div>
+                              </div>
+                
+                              <hr>
+                              <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                                <div class="w-full flex items-center justify-between p-3 alternate-background">
+                                <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                                <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                                <img src="aseets/img/games/mini.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                                </div>
+                                <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                                <div class="text5">
+                                  Minicraft
+                                </div>
+                                <div class="text-xs font-medium text-grey leading-tight text6">
+                                  
+                          
+                                </div>
+                                </div>
+                                </div>
+                               <a href="https://storage.ihvn.dev/ipas/Minecraft%20No%20Jailbreak%20Cheats%201.16.10%20Hacked%20IPA%20by%20iOSGods.com.ipa"> <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Download ipa</button></a>
+                          
+                                </div>
+                                </div>
+                        <hr>
+                        <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                          <div class="w-full flex items-center justify-between p-3 alternate-background">
+                          <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                          <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                          <img src="aseets/img/games/gta.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                          </div>
+                          <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                          <div class="text5">
+                            Grand Theft Auto: San Andreas
+                          </div>
+                          <div class="text-xs font-medium text-grey leading-tight text6">
+                            Infinite Ammo , Gun and cars ..
+                    
+                          </div>
+                          </div>
+                          </div>
+                          <button class="btn btn-secondary btn-sm text11" style="color: white;" type="button">Install</button>
+                    
+                          </div>
+                          </div>
+            
+                               
+                            
+
+
+                    <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 --> <!-- 2 -->
+                    
+                    </div>
+          
+                <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+                 
+                  <a href="#" class="btn btn-primary text10 style" role="button">Ok</a>
+                  <br> <br> <br>
+                </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+
+                    <!-- modal-7 --> <!-- 5 --> <!-- 5 --> <!-- 5 --> <!-- 5 --> <!-- 5 --> <!-- 5 --> <!-- 5 --> <!-- 5 -->
+
+<!-- Modal that can not be closed by clicking on the overlay, or pressing the [esc] key -->
+<div class="modal" id="modal-7" tabindex="-1" role="dialog" data-overlay-dismissal-disabled="true" data-esc-dismissal-disabled="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <a href="#" class="close" role="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </a>
+      <h5 class="text7">Search</h5>
+      <p class="text21">
+        Search by name app & games & number
+      </p>
+
+
+      <div class="wrapper">
+        <div class="search-input shadoww-sm border-0">
+          <a href="" target="_blank" hidden></a>
+          <input type="text" placeholder="Type to search..">
+          <div class="autocom-box">
+            <!-- here list are inserted from javascript -->
+          </div>
+          <div class="icon"><i class="fas fa-search"></i></div>
+        </div>
+      </div>
+  
+ 
+  
+
+      <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+      
+        <a href="#" class="btn btn-primary text10 text" role="button">Exit</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Optional. Required for modals to be dismissible by clicking on overlays, or pressing the [esc] key. -->
+
+
+<div class="modal" id="modal-8" tabindex="-1" role="dialog" data-overlay-dismissal-disabled="true" data-esc-dismissal-disabled="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <a href="#" class="close" role="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </a>
+      <h5 class="text7">Revok</h5>
+    <hr>
+    <br>
+      <h5 class="text29">!Ø¯Ø§ÙØ¨ÛØ²Ø§ÙØ¯ Ø¨ÛÚµØ§Ù Ú©Ø§Ø± ÙØ§Ú©Ø§Øª Ø</h5>
+     
+     <p class="text27 m-5 "> Ú¾ÛØ± Ú©Ø§ØªÛÚ© Ø¦ÛÙ¾ÛÚ©Øª Ø¯Ø§Ø¨ÛØ²Ø§ÙØ¯ Ù Ú©Ø§Ø±Û ÙÛÚ©Ø±Ø¯ ÛØ§Ù Ú©Ø±Ø§Ø´Û Ú©Ø±Ø¯ Ø¦ÛÙÛ ÙØ§ØªØ§ ÙÛ ÙØ§ÛÛÙ Ø¦ÛÙ¾ÚµÛÙÛ Ø±Ø§Ú¯ÛØ±Ø§ÙÛ Ù¾ÛÙØ³ØªÛ ÙÙÛ Ø¨Ú©Ø±ÛØªÛÙÛ Ø Ú¾ÛØ±Ú©Ø§ØªÛ ÙÙÛ Ú©Ø±Ø§ÛÛÙÛ Ø¦ÛÙÛ ÙÛ Ø³Ø§ÛØª Ø¦ÛÙ¾Ø¯ÛÛØª Ø¯ÛÚ©ÛÛÙÛÙÛ Ø¯ÛØªÙØ§ÙÛ ÙÛ  <span style="color: #32afed;">ØªÛÙÛÚ¯Ø±Ø§Ù</span>   Ø¦Ø§Ú¯Ø§Ø¯Ø§Ø± Ø¨ÛØª </p>
+<br>
+<hr>
+
+<br>
+  <h5 class="text29">Ø³ÛØ¯ÛØ§</h5>
+ 
+ <p class="text27 m-5 "><span style="color: #4bb543; font-size: 12px;">AppSync unified</span> Ø¦ÛÙØ§ÙÛÛ Ø³ÛØ¯ÛØ§ÛØ§Ù Ú¾ÛÛÛ Ø¯ÛØªÙØ§ÙÙ ÙÛ  ØªÙÛÚ©Û  Ø¦ÛÙØ³ØªØ§Ù Ø¨Ú©ÛÙ Ú¾ÛØ± Ø¦ÛÙ¾ÛÚ©ÛØ§Ù ÙÛØ³Øª ÙÛ Ø³Ø§ÛØª Ø¯Ø§ÛØ¨Ú¯Ø±Ù Ù Ø¨Û Ú©ÛØ´Û Ú©Ø§Ø± Ø¯ÛÚ©Ø§Øª</p>
+<br>
+<hr>
+
+      <div class="text-center mt-20"> <!-- text-right = text-align: right, mt-20 = margin-top: 2rem (20px) -->
+      
+        <a href="#" class="btn btn-primary text10 text" role="button">Exit</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Optional. Required for modals to be dismissible by clicking on overlays, or pressing the [esc] key. -->
+<!-- However, the dismissal methods have been disabled by the attributes on the modal here. -->
+<script src="path/to/halfmoon.js"></script>
+
+
+
+<!--Appss--><!--Appss--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps-->
+<!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps--><!--Apps-->
+
+
+<div id="apps" class="tabcontent">
+  <div class="card shadoww-sm border-0">
+    
+      <p class="text7">ios Apps</p>
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+          <img src="aseets/img/ipa.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+          Games Hack
+        </div>
+        <div class="text6">
+       Games Hack ios
+        </div>
+        </div>
+        </div>
+       <a href="#modal-4"> <button class="btn btn-primary btn-sm text11" style="color: white;" type="button">View</button></a>
+        </div>
+        </div>
+     
+
+      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+        <img src="aseets/img/apps/videostar.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">
+         video star hack 
+        </div>
+        <div class="text6">
+        Hacked
+        </div>
+        </div>
+        </div>
+        
+        <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/videostar3.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+        
+
+
+</div>
+          </div>
+          <hr>
+            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+              <div class="w-full flex items-center justify-between p-3 alternate-background">
+              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+              <img src="aseets/img/apps/Ov.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+              </div>
+              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+              <div class="text5">
+              OVFEditor Hack
+              </div>
+              <div class="text-xs font-medium text-grey leading-tight text6">
+               Hacked
+        
+              </div>
+              </div>
+              </div>
+               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Ovf.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+        </div>
+        </div>
+        <hr>
+        <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+          <div class="w-full flex items-center justify-between p-3 alternate-background">
+          <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+          <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+          <img src="aseets/img/apps/Art.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+          </div>
+          <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+          <div class="text5">
+           Picsart Hack 
+          </div>
+          <div class="text-xs font-medium text-grey leading-tight text6">
+           هەموو بەشەکان کراوەتەوە
+    
+          </div>
+          </div>
+          </div>
+           <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/chemera.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+          </div>
+          </div>
+          <hr>
+            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+              <div class="w-full flex items-center justify-between p-3 alternate-background">
+              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+              <img src="aseets/img/apps/fb.jpg" style="border-radius: 20%;" width="50px" height="50px" class="n">
+              </div>
+              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+              <div class="text5">
+                Facebook ++ 
+              </div>
+              <div class="text-xs font-medium text-grey leading-tight text6">
+                Tweaked
+        
+              </div>
+              </div>
+              </div>
+               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/fb.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+        
+              </div>
+              </div>
+              <hr>
+              <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                <div class="w-full flex items-center justify-between p-3 alternate-background">
+                <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                <img src="aseets/img/apps/ig.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                </div>
+                <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                <div class="text5">
+                  Instagram ++ 
+                </div>
+                <div class="text-xs font-medium text-grey leading-tight text6">
+                 Tweaked
+          
+                </div>
+                </div>
+                </div>
+                  <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/ig.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+          
+                </div>
+                </div>
+
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/tiktok.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                    Tiktok ++ 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                    Download video without water mark
+            
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/tiktok.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+            
+                  </div>
+                  </div>
+                  <hr>
+                  <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                    <div class="w-full flex items-center justify-between p-3 alternate-background">
+                    <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                    <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                    <img src="aseets/img/apps/Kinemaster.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                    </div>
+                    <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                    <div class="text5">
+                      Kine Master Hack
+                    </div>
+                    <div class="text-xs font-medium text-grey leading-tight text6">
+                     Hacked
+ 
+             
+                    </div>
+                    </div>
+                    </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/kine.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+ 
+
+
+
+</div>
+        </div>
+        <hr>
+        <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+          <div class="w-full flex items-center justify-between p-3 alternate-background">
+          <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+          <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+          <img src="aseets/img/apps/Fx.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+          </div>
+          <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+          <div class="text5">
+          VideoFx Live Hack 
+          </div>
+          <div class="text-xs font-medium text-grey leading-tight text6">
+          Hacked
+    
+          </div>
+          </div>
+          </div>
+           <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Fx.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+                   </div>
+                    </div>
+                    <hr>
+                    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                      <div class="w-full flex items-center justify-between p-3 alternate-background">
+                      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                      <img src="aseets/img/apps/unc0ver.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                      </div>
+                      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                      <div class="text5">
+                       Unc0ver
+                      </div>
+                      <div class="text-xs font-medium text-grey leading-tight text6">
+                       Jaibreak 14.8
+                
+                      </div>
+                      </div>
+                      </div>
+                       <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/1.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+                
+                      </div>
+                      </div>
+                      <hr>
+                      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                        <div class="w-full flex items-center justify-between p-3 alternate-background">
+                        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                        <img src="https://archive.org/download/fill-a/FillA.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                        </div>
+                        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                        <div class="text5">
+                        Filza Escaped
+                        </div>
+                        <div class="text-xs font-medium text-grey leading-tight text6">
+                         15.0 – 15.1.1
+                  
+                        </div>
+                        </div>
+                        </div>
+                         <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Filzamana.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+   
+
+                </div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/Shot.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                  Inshot Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                   هەموو بەشەکان کراوەتەوە
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/videostar.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/ps_20220726/Ps.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                             Photoshop Express Hack 
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               Free
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Ps.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+</div>
+                  </div>
+                  <hr>
+                  <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                    <div class="w-full flex items-center justify-between p-3 alternate-background">
+                    <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                    <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                    <img src="aseets/img/apps/Touch.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                    </div>
+                    <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                    <div class="text5">
+                     Retouch Hack
+                    </div>
+                    <div class="text-xs font-medium text-grey leading-tight text6">
+                     Hacked
+              
+                    </div>
+                    </div>
+                    </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Touch.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+</div>
+        </div>
+        <hr>
+        <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+          <div class="w-full flex items-center justify-between p-3 alternate-background">
+          <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+          <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+          <img src="aseets/img/apps/Spotify.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+          </div>
+          <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+          <div class="text5">
+          Spotify Hack 
+          </div>
+          <div class="text-xs font-medium text-grey leading-tight text6">
+          Hacked
+    
+          </div>
+          </div>
+          </div>
+           <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Spotify.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+</div>
+        </div>
+        <hr>
+        <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+          <div class="w-full flex items-center justify-between p-3 alternate-background">
+          <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+          <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+          <img src="aseets/img/apps/Youtube.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+          </div>
+          <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+          <div class="text5">
+          Youtube++ 
+          </div>
+          <div class="text-xs font-medium text-grey leading-tight text6">
+         Plus
+    
+          </div>
+          </div>
+          </div>
+           <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Youtube.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+</div>
+        </div>
+        <hr>
+        <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+          <div class="w-full flex items-center justify-between p-3 alternate-background">
+          <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+          <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+          <img src="aseets/img/apps/Messenger.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+          </div>
+          <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+          <div class="text5">
+          Messenger++ 
+          </div>
+          <div class="text-xs font-medium text-grey leading-tight text6">
+         Plus
+    
+          </div>
+          </div>
+          </div>
+           <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Messenger.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/pp.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                   PPSSPP
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                  لەرێگای ئەم ئەپەوە دەتوانی زۆربەی یاریەکانی پلەیستەشن 2 بەکار بهێنن
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/PPSSPP.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/Pro.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 ProCam Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                  Hacked
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Procam.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+</div>
+                  </div>
+                  <hr>
+                  <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                    <div class="w-full flex items-center justify-between p-3 alternate-background">
+                    <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                    <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                    <img src="aseets/img/apps/Cpu.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                    </div>
+                    <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                    <div class="text5">
+                    CPUX Pro
+                    </div>
+                    <div class="text-xs font-medium text-grey leading-tight text6">
+                    Free
+              
+                    </div>
+                    </div>
+                    </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Cpu.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/Djay.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 Djay Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                  Hacked
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Djay.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+</div>
+                  </div>
+                  <hr>
+                  <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                    <div class="w-full flex items-center justify-between p-3 alternate-background">
+                    <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                    <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                    <img src="aseets/img/apps/Snapp.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                    </div>
+                    <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                    <div class="text5">
+                      SnapChat 2
+                    </div>
+                    <div class="text-xs font-medium text-grey leading-tight text6">
+                     بۆ ئەوانەی ئایپی سناپیان بلۆک بووا ئەتوانن ئەم سناپە بە کار بێنن رەنگە سناپ لۆک بکات مەسوولیاتی لەسەر خۆت
+              
+                    </div>
+                    </div>
+                    </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Snapch.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+ 
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/Mate.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 FuniMate Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                  کردنەوە هەموو بەشەکان 
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Funiimate.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="https://archive.org/download/pyth_20220623/Pyth.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Pythonista3
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                              Free
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Crackpython.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="https://archive.org/download/vivavideo_202207/Vivavideo.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 Viva Video Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                   Hacked
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/VivaDeo.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="https://archive.org/download/luma_20220724/Luma.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 Luma Fusion Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                  Hacked 
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Luma.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/fltr.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 Infltr Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                   هەموو بەشەکان کراوەتەوە
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/infltr.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/cute.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 Cute cut Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                   هەموو بەشەکان کراوەتەوە
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Cutecu.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/rrr.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                  Remini Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                   هەموو بەشەکان کراوەتەوە
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Remii.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/Face.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                  Facetune Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                   Hacked
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Face.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+ 
+
+</div>
+                            </div>
+                            <hr>
+                            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                              <div class="w-full flex items-center justify-between p-3 alternate-background">
+                              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                              <img src="aseets/img/apps/Shado.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                              </div>
+                              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                              <div class="text5">
+                              Shadowrocket
+                              </div>
+                              <div class="text-xs font-medium text-grey leading-tight text6">
+                               خۆی لە ئەپستۆر بە پارەیە
+                        
+                              </div>
+                              </div>
+                              </div>
+                               <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Shh.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+</div>
+                      </div>
+                      <hr>
+                      <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                        <div class="w-full flex items-center justify-between p-3 alternate-background">
+                        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                        <img src="aseets/img/apps/videoleap.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                        </div>
+                        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                        <div class="text5">
+                        Videoleap Hack
+                        </div>
+                        <div class="text-xs font-medium text-grey leading-tight text6">
+                        Hacked
+                  
+                        </div>
+                        </div>
+                        </div>
+                         <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Videoleap.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+
+</div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/Motionleap.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 Motionleap Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                  Hacked
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Motionleap.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+ 
+
+                </div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/Lightleap.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 Lightleap Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                   Hacked
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Lightleap.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a>
+
+
+
+
+                </div>
+                </div>
+                <hr>
+                <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  <div class="w-full flex items-center justify-between p-3 alternate-background">
+                  <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                  <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                  <img src="aseets/img/apps/Photoleap.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                  </div>
+                  <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                  <div class="text5">
+                 Photoleap Hack 
+                  </div>
+                  <div class="text-xs font-medium text-grey leading-tight text6">
+                   Hacked
+                  </div>
+                  </div>
+                  </div>
+                    <a onclick="window.location='itms-services://?action=download-manifest&amp;url=https://kurdish-stor.tk/install/Photoleap.plist';" class="btn btn-success btn-sm text11" style="color: white;">Install</a> 
+
+
+
+            
+                        </div>
+                        </div>
+                
+
+      </div>
+      
+
+</div>
+<br>
+<br><br>
+
+    </div>
+      <!--endapps--><!--endapps--><!--endapps--><!--endapps--><!--endapps--><!--endapps-->
+     
+
+     
+      
+ <!--games-->  <!--games-->  <!--games--> <!--games--> <!--game--> <!--games-> <!--games--> <!--games-->
+  <!--games--> <!--games--> <!--games--> <!--games--> <!--games--> <!--games--> <!--games--> <!--games-->
+<div id="game" class="tabcontent">
+  <div class="card shadoww-sm border-0">
+    
+    <p class="text7">android Games</p>
+          
+         
+
+    
+     
+     
+      </div><hr><div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+      <div class="w-full flex items-center justify-between p-3 alternate-background">
+      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+      <img src="aseets/img/games/Clans.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+      </div>
+      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+      <div class="text5">Clash of Clans Hack</div>
+      <div class="text6">Hacked Game</div>
+      <div class="text6">v14.555</div></div>
+      </div>
+      <a href="https://up-ipa.com/uploads/up-ipa.comClash-of-clans-v14-555-11-mod-apkdone-com.apk"> <button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a>
+     
+
+
+            </div>
+            </div>
+            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+            <div class="w-full flex items-center justify-between p-3 alternate-background">
+            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+            <img src="aseets/img/games/gta.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+            </div>
+            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+            <div class="text5">GTA Hack</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">Hacked Game</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">v2.00</div></div>
+            </div>
+            <a href="https://up-ipa.com/uploads/up-ipa.comGTA-San-Andreas-2-00-mod-apkdone.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a>
+      
+            </div>
+            </div>
+            <hr><div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+            <div class="w-full flex items-center justify-between p-3 alternate-background">
+            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+            <img src="aseets/img/games/mini.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+            </div>
+            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+            <div class="text5">Minecraft</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">Hacked Game</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">v1.19.10</div></div>
+            </div>
+            <a href="https://up-ipa.com/uploads/up-ipa.comMinecraft-v1-19-10-23-mod-apkdone-com.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a>
+      
+            </div>
+            </div><hr><div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+            <div class="w-full flex items-center justify-between p-3 alternate-background">
+            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+            <img src="aseets/img/games/Org.png" style="border-radius: 20%;" width="50px" height="50px" class="n">
+            </div>
+            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+            <div class="text5">ORG 2020 Hack</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">Hacked Game</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">
+v2021.1.1.0.8</div></div>
+            </div>
+            <a href="https://up-ipa.com/uploads/up-ipa.comORG-2022-v2020-1-2-2-4-mod-apkdone-com.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a>
+      
+            </div>
+            </div><div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  
+                  </div>
+
+
+
+<!--games-->  <!--games-->  <!--games--> <!--games--> <!--game--> <!--games-> <!--games--> <!--games-->
+  <!--games--> <!--games--> <!--games--> <!--games--> <!--games--> <!--games--> <!--games--> <!--games-->
+<div id="game" class="tabcontent">
+  <div class="card shadoww-sm border-0">
+    
+    <p class="text7">android Apps</p>
+ 
+
+    <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+      
+      </div>
+    
+    
+    
+        
+  
+        <a href="https://up-ipa.com/uploads/up-ipa.comsnapchat.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a></div>
+        </div><hr><div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+        <img src="https://ittza7aa.com/aseets/pic/apps/ovf.webp" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">OVF Editor</div>
+        <div class="text-xs font-medium text-grey leading-tight text6">OVF Editor for Snapchat Dark Mode</div>
+        <div class="text-xs font-medium text-grey leading-tight text6">v11.64</div></div>
+        </div>
+        
+  
+        <a href="https://up-ipa.com/uploads/up-ipa.comOVF-Editor-for-clone.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a></div>
+        </div><hr><div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+        <div class="w-full flex items-center justify-between p-3 alternate-background">
+        <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+        <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+        <img src="https://ittza7aa.com/aseets/pic/apps/instagram.webp" style="border-radius: 20%;" width="50px" height="50px" class="n">
+        </div>
+        <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+        <div class="text5">Instagram++</div>
+        <div class="text-xs font-medium text-grey leading-tight text6">Tweaked Features</div>
+        <div class="text-xs font-medium text-grey leading-tight text6">v16.0</div></div>
+        </div>
+ 
+
+        <a href="https://up-ipa.com/uploads/up-ipa.cominstander-16-0-c.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a></div>
+        </div><hr><div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+      <div class="w-full flex items-center justify-between p-3 alternate-background">
+      <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+      <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+      <img src="https://ittza7aa.com/aseets/pic/apps/tiktok.webp" style="border-radius: 20%;" width="50px" height="50px" class="n">
+      </div>
+      <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+      <div class="text5">Tiktok++</div>
+      <div class="text6">Tweaked Features</div>
+      <div class="text6">v24.9.3</div></div>
+      </div>
+      <a href="https://up-ipa.com/uploads/up-ipa.comTikTok-24-9-3-arm64-.apk"> <button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a>
+      </div>
+      </div><hr>
+          <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+            <div class="w-full flex items-center justify-between p-3 alternate-background">
+            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+            <img src="https://ittza7aa.com/aseets/pic/apps/alight.webp" style="border-radius: 20%;" width="50px" height="50px" class="n">
+            </div>
+            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+            <div class="text5">Alight Motion Pro</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">Hacked, All Features Unlocked</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">v4.2.0</div></div>
+            </div>
+            <a href="https://up-ipa.com/uploads/up-ipa.comAlight-Motion-v4-2-0-MOMIA.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a>
+      
+            </div>
+            </div>
+            <hr><div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+            <div class="w-full flex items-center justify-between p-3 alternate-background">
+            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+            <img src="https://ittza7aa.com/aseets/pic/apps/qr.webp" style="border-radius: 20%;" width="50px" height="50px" class="n">
+            </div>
+            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+            <div class="text5">QR Scanner</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">Add Code for Alightmotion</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">v2.7.4</div></div>
+            </div>
+            <a href="https://up-ipa.com/uploads/up-ipa.comQR-Barcode-Reader-v2-7-3-L-apkpure-com.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a>
+      
+            </div>
+            </div><hr><div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+            <div class="w-full flex items-center justify-between p-3 alternate-background">
+            <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+            <img src="https://ittza7aa.com/aseets/pic/apps/kinemaster.webp" style="border-radius: 20%;" width="50px" height="50px" class="n">
+            </div>
+            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+            <div class="text5">KineMaster Pro</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">Hacked, All Features Unlocked</div>
+            <div class="text-xs font-medium text-grey leading-tight text6">v6.0.6</div></div>
+            </div>
+            <a href="https://up-ipa.com/uploads/up-ipa.comKineMaster-v6-0-6-26410-GP-mod-apkdone-com.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a>
+      
+            </div>
+            </div><hr><div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                  
+                  </div>
+            <div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+              <div class="w-full flex items-center justify-between p-3 alternate-background">
+              <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+              <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+              <img src="https://ittza7aa.com/aseets/pic/apps/cute.webp" style="border-radius: 20%;" width="50px" height="50px" class="n">
+              </div>
+              <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+              <div class="text5">Cute CUT Pro</div>
+              <div class="text-xs font-medium text-grey leading-tight text6">Hacked, All Features Unlocked</div>
+              <div class="text-xs font-medium text-grey leading-tight text6">v1.8.8</div></div>
+              </div>
+              <a href="https://up-ipa.com/uploads/up-ipa.comCuteCUTPro.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a>
+        
+              </div>
+              </div>
+
+              
+              <hr><div class="w-full flex items-center justify-between p-3 alternate-background">
+                <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                <img src="https://ittza7aa.com/aseets/pic/apps/viva.webp" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                </div>
+                <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                <div class="text5">VivaCut Pro</div>
+                <div class="text-xs font-medium text-grey leading-tight text6">Hacked, All Features Unlocked</div>
+                <div class="text-xs font-medium text-grey leading-tight text6">v2.14.0</div></div>
+                </div>
+                 <a href="https://up-ipa.com/uploads/up-ipa.comVivaCut-v2-14-0-mod-apkdone-com.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a>
+          
+                </div><hr><div class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between">
+                <div class="w-full flex items-center justify-between p-3 alternate-background">
+                <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                <img src="https://ittza7aa.com/aseets/pic/apps/picsart.webp" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                </div>
+                <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                <div class="text5">PicsArt Pro</div>
+                <div class="text-xs font-medium text-grey leading-tight text6">Hacked, All Features Unlocked</div>
+                <div class="text-xs font-medium text-grey leading-tight text6">v20.0.2</div></div>
+                </div>
+                 
+          
+                <a href="https://up-ipa.com/uploads/up-ipa.comPicsart-v20-0-2-mod-apkdone-com.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a></div>
+                <hr><div class="w-full flex items-center justify-between p-3 alternate-background">
+                <div class="items-center justify-start content-center align-center flex flex-grow" style="width: calc(100% - 3rem);">
+                <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                <img src="https://ittza7aa.com/aseets/pic/apps/inshot.webp" style="border-radius: 20%;" width="50px" height="50px" class="n">
+                </div>
+                <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                <div class="text5">InShot Pro</div>
+                <div class="text-xs font-medium text-grey leading-tight text6">Hacked, All Features Unlocked</div>
+                <div class="text-xs font-medium text-grey leading-tight text6">v1.830</div></div>
+                </div>
+                 <a href="https://up-ipa.com/uploads/up-ipa.comInShot-1-830-1358-mod-apkdone.apk"><button class="btn btn-success btn-sm text11" style="color: white;" type="button">Download</button></a>
+          
+                </div></div>
+
+
+                
+              <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore-->
+               <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore--> <!--appstore-->
+              
+             
+    </div>
+    
+   
+
+
+      </p>
+  
+  
+        <!-- This parent container is required -->
+   
+     
+  
+                
+                <!--dell-->
+<br><br>
+<br><br>
+  
+</div>
+
+<style>
+  .botton1{
+color: white !important;  
+  }
+</style>
+
+<div id="info" class="tabcontent" >
+  <!--danyar--><!--danyar--><!--danyar--><!--danyar-->
+  <div class="card shadoww-sm border-0">    
+  
+ 
+      <a href="https://t.me/ikurdish_store"><button class="btn btn btn-primary  text15" type="button">Telegram</button></a>
+    </center>
+    </row>
+   </div>
+   
+<!--danyar--><!--danyar--><!--danyar--><!--danyar-->
+
+<!--About--><!--about--><!--about--><!--about-->
+<div class="card shadoww-sm border-0">
+        
+
+      <p class="text16">kurdish stor</p>
+    <p class="text17"> Tweaked++ Apps , Hacked Games </p>
+    <div style="text-align: center;">
+    <a class="row" href="webclip.mobileconfig">
+        <button class="btn btn-success btn-block font-size-14 botton1" type="button">Download Webapp</button>
+        </a>
+        </div>
+
+ 
+ <p class="text13">kurdish stor</p>
+ <p class="text14">Manager | Developer </p>
+ <row>
+   <center>
+   
+   
+ </center>
+ </row>
+ 
+ </div>
+
+ <div class="card shadow-sm border-0 text25" >
+  All rights reserved ,kurdish stor 2022 
+
+</div>
+
+<!--About--><!--about--><!--about--><!--about-->
+ </div>
+ <br>
+<br>
+<br>
+<br>
+  </div>
+ 
+ 
+  
+ 
+ 
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+function toggleDemo() {
+    halfmoon.toggleDarkMode();
+
+  }
+
+  document.getElementById("defaultOpen").click();
+
+  function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+   
+
+<script type="text/javascript">
+  // Toasts primary alert
+  function toastPrimaryAlert() {
+    halfmoon.initStickyAlert({
+      content: "This is a primary alert without a close button, that will stay up for 10 seconds.",
+      title: "Primary alert",
+      alertType: "alert-primary",
+      hasDismissButton: false,
+      timeShown: 10000
+    });
+  }
+  
+  // Toasts success alert
+  function toastSuccessAlert() {
+    halfmoon.initStickyAlert({
+      content: "This is a success alert that will be filled only in light mode.",
+      title: "Success alert",
+      alertType: "alert-success",
+      fillType: "filled-lm"
+    });
+  }
+  
+  // Toasts secondary alert
+  function toastSecondaryAlert() {
+    halfmoon.initStickyAlert({
+      content: "This is a secondary alert that will be filled only in dark mode.",
+      title: "Secondary alert",
+      alertType: "alert-secondary",
+      fillType: "filled-dm"
+    });
+  }
+  
+  // Toasts danger alert
+  function toastDangerAlert() {
+    halfmoon.initStickyAlert({
+      content: "Ø¯Ø§Ø¨ÛØ²Ø§ÙØ¯ÙÛ Ú¤ÛØ¯ÛÛ Ø¨ÛØ±Ø¯ÛØ³Øª ÙÛÛ",
+      title: "Video Downloader not avalaible",
+      alertType: "alert-danger",
+      fillType: "filled"
+    });
+  }
+</script>
+
+<script>
+  // getting all required elements
+const searchWrapper = document.querySelector(".search-input");
+const inputBox = searchWrapper.querySelector("input");
+const suggBox = searchWrapper.querySelector(".autocom-box");
+const icon = searchWrapper.querySelector(".icon");
+let linkTag = searchWrapper.querySelector("a");
+let webLink;
+
+// if user press any key and release
+inputBox.onkeyup = (e)=>{
+    let userData = e.target.value; //user enetered data
+    let emptyArray = [];
+    if(userData){
+        icon.onclick = ()=>{
+            webLink = "https://kurdish-stor.tk/final/code/" + userData;
+            linkTag.setAttribute("href", webLink);
+            console.log(webLink);
+            linkTag.click();
+        }
+        emptyArray = suggestions.filter((data)=>{
+            //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
+            return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase()); 
+        });
+        emptyArray = emptyArray.map((data)=>{
+            // passing return data inside li tag
+            return data = '<li>'+ data +'</li>';
+        });
+        searchWrapper.classList.add("active"); //show autocomplete box
+        showSuggestions(emptyArray);
+        let allList = suggBox.querySelectorAll("li");
+        for (let i = 0; i < allList.length; i++) {
+            //adding onclick attribute in all li tag
+            allList[i].setAttribute("onclick", "select(this)");
+        }
+    }else{
+        searchWrapper.classList.remove("active"); //hide autocomplete box
+    }
+}
+
+function select(element){
+    let selectData = element.textContent;
+    inputBox.value = selectData;
+    icon.onclick = ()=>{
+        webLink = "https://kurdish-stor.tk/final/code/" + selectData;
+        linkTag.setAttribute("href", webLink);
+        linkTag.click();
+    }
+    searchWrapper.classList.remove("active");
+}
+
+function showSuggestions(list){
+    let listData;
+    if(!list.length){
+        userValue = inputBox.value;
+        listData = '<li>'+ userValue +'</li>';
+    }else{
+        listData = list.join('');
+    }
+    suggBox.innerHTML = listData;
+}
+let suggestions = [
+    "Chimera",
+    "Facebook ++",
+    "Instagram ++",
+    "Tiktok ++",
+    "Kine master pro",
+    "Video star",
+    "8 ball pool",
+    "Agar.io",
+    "Among Us",
+    "Pubg hack",
+  
+  
+     "unc0ver",
+   
+];
+</script>
